@@ -6,7 +6,7 @@ export default function Header() {
           Yuta.
         </a>
       </div>
-      <div>
+      <div className="my-2">
         <ul class="flex font-bold">
           <li>
             <a href="#" class="block py-2  pr-10">
