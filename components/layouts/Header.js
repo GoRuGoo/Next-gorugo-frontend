@@ -34,6 +34,11 @@ export default function Header() {
             ></path>
           </svg>
         </button>
+        {openMenu ? (
+          <div className=" w-full md:block md:w-auto ">
+            <a>test</a>
+          </div>
+        ) : undefined}
         <div className="hidden w-full md:block md:w-auto ">
           <ul class="flex font-bold">
             <li>
