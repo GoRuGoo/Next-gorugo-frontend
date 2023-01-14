@@ -35,8 +35,18 @@ export default function Header() {
           </svg>
         </button>
         {openMenu ? (
-          <div className=" w-full md:block md:w-auto ">
-            <a>test</a>
+          <div className="flex-row  block md:hidden container items-center ">
+            <ul className="text-center font-bold">
+              <li className="border-b-2 p-2 m-6 " onClick={menuFunction}>
+                CLOSE
+              </li>
+              <li
+                className="border-b-2 p-2 m-6
+              "
+              >
+                TEST
+              </li>
+            </ul>
           </div>
         ) : undefined}
         <div className="hidden w-full md:block md:w-auto ">
