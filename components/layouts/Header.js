@@ -35,11 +35,8 @@ export default function Header() {
           </svg>
         </button>
         {openMenu ? (
-          <div className="flex-row  md:hidden  container items-center ">
+          <div className="flex-row  md:hidden h-screen container items-center ">
             <ul className="text-center  font-bold block">
-              <li className="border-b-2 p-2 m-6 " onClick={menuFunction}>
-                CLOSE
-              </li>
               <li
                 className="border-b-2 p-2 m-6
               "
