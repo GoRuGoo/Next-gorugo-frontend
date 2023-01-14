@@ -35,8 +35,8 @@ export default function Header() {
           </svg>
         </button>
         {openMenu ? (
-          <div className="flex-row  md:hidden h-screen container items-center ">
-            <ul className="text-center  font-bold block">
+          <div className="flex-row  md:hidden h-screen container items-center relative">
+            <ul className="text-center font-bold translate-y-3/4">
               <li
                 className="border-b-2 p-2 m-6
               "
