@@ -35,8 +35,8 @@ export default function Header() {
           </svg>
         </button>
         {openMenu ? (
-          <div className="flex-row  block md:hidden container items-center ">
-            <ul className="text-center font-bold">
+          <div className="flex-row  md:hidden  container items-center ">
+            <ul className="text-center  font-bold block">
               <li className="border-b-2 p-2 m-6 " onClick={menuFunction}>
                 CLOSE
               </li>
@@ -44,7 +44,25 @@ export default function Header() {
                 className="border-b-2 p-2 m-6
               "
               >
-                TEST
+                Bio
+              </li>
+              <li
+                className="border-b-2 p-2 m-6
+              "
+              >
+                Skills
+              </li>
+              <li
+                className="border-b-2 p-2 m-6
+              "
+              >
+                Works
+              </li>
+              <li
+                className="border-b-2 p-2 m-6
+              "
+              >
+                Contact
               </li>
             </ul>
           </div>
