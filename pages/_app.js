@@ -1,11 +1,10 @@
 import "../styles/globals.css";
-import { Box, ChakraProvider } from "@chakra-ui/react";
-import { Children } from "react";
+import Header from "../components/layouts/Header";
 
 export default function App({ Component, pageProps }) {
   return (
-    <ChakraProvider>
+    <Header>
       <Component {...pageProps} />
-    </ChakraProvider>
+    </Header>
   );
 }

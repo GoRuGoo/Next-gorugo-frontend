@@ -1,5 +1,5 @@
-import Layout from "../components/layouts/Layout";
 import Head from "next/head";
+import Header from "../components/layouts/Header";
 
 export default function Home() {
   return (
@@ -9,7 +9,6 @@ export default function Home() {
         <meta name="description" content="GoRuGoo's Portfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <Layout />
     </>
   );
 }

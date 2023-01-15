@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/earlyaccess/nicomoji.css');
+
+html{
+    background-color: black;
+}
