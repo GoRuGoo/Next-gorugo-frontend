@@ -36,7 +36,7 @@ export default function Header() {
         </button>
         {openMenu ? (
           <div className="flex-row  md:hidden h-screen container items-center relative">
-            <ul className="text-center font-bold translate-y-3/4">
+            <ul className="text-center font-bold translate-y-2/4">
               <li
                 className="border-b-2 p-2 m-6
               "
