@@ -41,50 +41,42 @@ export default function Header() {
                 className="border-b-2 p-2 m-6
               "
               >
-                Bio
+                <button>Bio</button>
               </li>
               <li
                 className="border-b-2 p-2 m-6
               "
               >
-                Skills
+                <button>Skills</button>
               </li>
               <li
                 className="border-b-2 p-2 m-6
               "
               >
-                Works
+                <button>Works</button>
               </li>
               <li
                 className="border-b-2 p-2 m-6
               "
               >
-                Contact
+                <button>Contact</button>
               </li>
             </ul>
           </div>
         ) : undefined}
         <div className="hidden w-full md:block md:w-auto ">
           <ul class="flex font-bold">
-            <li>
-              <a href="#" class="block py-2  pr-10">
-                Bio
-              </a>
+            <li className="block py-2 pr-10">
+              <button>Bio</button>
             </li>
-            <li>
-              <a href="#" class="block py-2  pr-10">
-                Skills
-              </a>
+            <li className="block py-2 pr-10">
+              <button>Skills</button>
             </li>
-            <li>
-              <a href="#" class="block py-2  pr-10">
-                Works
-              </a>
+            <li className="block py-2 pr-10">
+              <button>Works</button>
             </li>
-            <li>
-              <a href="#" class="block py-2  pr-10">
-                Contact
-              </a>
+            <li className="block py-2 pr-10">
+              <button>Contact</button>
             </li>
           </ul>
         </div>
