@@ -9,7 +9,7 @@ export default function Header() {
     <nav class="bg-white md:py-10 py-3.5 flex px-3 item-center m-auto">
       <div class="container flex flex-wrap items-center justify-between mx-auto">
         <a href="/" class="font-bold  text-5xl px-5">
-          Yuta.
+          Go.Ru
         </a>
         <button
           data-collapse-toggle="navbar-default"
@@ -19,7 +19,6 @@ export default function Header() {
           aria-controls="navbar-default"
           aria-expanded="false"
         >
-          <span class="sr-only">Open main menu</span>
           <svg
             class="w-6 h-6"
             aria-hidden="true"
