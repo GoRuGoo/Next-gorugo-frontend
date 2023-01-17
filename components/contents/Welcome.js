@@ -4,13 +4,15 @@ export default function Welcome(props) {
     <>
       <div className="bg-white">
         {/* <Image src="/cycle.webp" height={2048} width={1365} /> */}
-        <Image
-          src={"/cycle.webp"}
-          height={props.height}
-          width={props.width}
-          objectPosition="left top"
-          className="object-cover"
-        />
+        {props.width >= 768 ? (
+          <Image
+            src={"/cycle.webp"}
+            height={props.height}
+            width={props.width}
+            objectPosition="left top"
+            objectFit="cover"
+          />
+        ) : undefined}
       </div>
     </>
   );
