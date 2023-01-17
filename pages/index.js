@@ -1,7 +1,10 @@
 import Head from "next/head";
+import Welcome from "../components/contents/Welcome";
 import Header from "../components/layouts/Header";
 
+import { getWindowSize } from "../calfunctions/GetWindowSize";
 export default function Home() {
+  const { height, width } = getWindowSize();
   return (
     <>
       <Head>
@@ -10,6 +13,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <Header />
+      <Welcome height={height} width={width} />
     </>
   );
 }
