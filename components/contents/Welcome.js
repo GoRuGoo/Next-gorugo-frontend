@@ -11,7 +11,15 @@ export default function Welcome(props) {
             width={props.width}
             className="object-cover absolute"
           />
-        ) : undefined}
+        ) : (
+          <Image
+            src={"/cycle.webp"}
+            height={props.height}
+            width={768}
+            objectPosition={"left top"}
+            className="object-cover absolute"
+          />
+        )}
       </div>
     </>
   );
