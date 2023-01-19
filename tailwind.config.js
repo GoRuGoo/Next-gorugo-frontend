@@ -6,6 +6,7 @@ module.exports = {
     extend: {
       fontFamily: {
         kawaii: ["Nico Moji"],
+        namemyotyo: ["Noto Serif JP", "serif"],
       },
     },
   },
