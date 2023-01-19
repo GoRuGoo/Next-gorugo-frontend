@@ -6,22 +6,22 @@ export default function Header() {
     console.log(openMenu);
   };
   return (
-    <nav class="bg-white md:py-10 py-3.5 flex px-3 item-center m-auto">
-      <div class="container flex flex-wrap items-center justify-between mx-auto">
-        <a href="/" class="font-bold  text-5xl px-5">
+    <nav className="bg-white md:py-10 py-3.5 flex px-3 item-center m-auto">
+      <div className="container flex flex-wrap items-center justify-between mx-auto">
+        <a href="/" className="font-bold  text-5xl px-5">
           Yuta.
         </a>
         <button
           data-collapse-toggle="navbar-default"
           type="button"
-          class="inline-flex items-center p-2 ml-3 mr-1 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200-gray-400"
+          className="inline-flex items-center p-2 ml-3 mr-1 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200-gray-400"
           onClick={menuFunction}
           aria-controls="navbar-default"
           aria-expanded="false"
         >
-          <span class="sr-only">Open main menu</span>
+          <span className="sr-only">Open main menu</span>
           <svg
-            class="w-6 h-6"
+            className="w-6 h-6"
             aria-hidden="true"
             fill="currentColor"
             viewBox="0 0 20 20"
@@ -65,7 +65,7 @@ export default function Header() {
           </div>
         ) : undefined}
         <div className="hidden w-full md:block md:w-auto ">
-          <ul class="flex font-bold">
+          <ul className="flex font-bold">
             <li className="block py-2 pr-10">
               <button>Bio</button>
             </li>
