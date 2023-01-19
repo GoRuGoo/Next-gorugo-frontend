@@ -25,7 +25,7 @@ export default function Biography(props) {
           className=" md:w-5/12  w-9/12 mx-auto text-justify
            font-namemyotyo md:tracking-widest tracking-wider text-base leading-8"
         >
-          2005年生まれ。現17歳。名古屋市在住。小五~中3に
+          2005年生まれ。現17歳。名古屋市在住。小五~中三に
           <span>RoboCupJuniorSoccer</span>
           に参加。それをきっかけに科学技術に興味を持つ。 豊田工業高等専門学校
           情報工学科所属。プログラミングとVTuberの
