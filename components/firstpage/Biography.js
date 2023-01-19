@@ -12,7 +12,7 @@ export default function Biography(props) {
         </h1>
       </div>
       <div className="text-center md:w-6/12 w-10/12 mx-auto">
-        <Image src={"/cycle.webp"} height={props.height} width={props.width} />
+        <Image src={"/goru.webp"} height={props.height} width={props.width} />
       </div>
       <h1 className="text-center font-serif md:text-8xl text-5xl tracking-widest mt-20">
         伊 藤 優 汰
@@ -31,7 +31,7 @@ export default function Biography(props) {
           情報工学科所属。プログラミングとVTuberの
           <a href="https://www.youtube.com/@HoshimachiSuisei">星街すいせい</a>
           を愛しています。
-          現在はプログラミングを始めとした技術は、”学ぶものではなく楽しむこと”という考えから
+          現在はプログラミングを始めとした技術は、”学ぶものではなく楽しむもの”という考えから
           <span>「Have Fun! With Technology!」</span>
           というモットーを掲げ、日々開発することを楽しむ。
         </p>
