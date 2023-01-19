@@ -17,7 +17,7 @@ export default function Biography(props) {
       <h1 className="text-center font-serif md:text-8xl text-5xl tracking-widest mt-20">
         伊 藤 優 汰
       </h1>
-      <h2 className="text-center font-namemyotyo md:text-3xl text-2xl mb-5 text-gray-400">
+      <h2 className="text-center font-namemyotyo md:text-3xl text-2xl my-5 text-gray-400">
         Yuta Ito
       </h2>
       <div className="mb-20">
