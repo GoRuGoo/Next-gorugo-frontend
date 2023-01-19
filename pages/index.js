@@ -15,6 +15,7 @@ export default function Home() {
       </Head>
       <Header />
       <Welcome height={height} width={width} />
+      <Biography />
     </>
   );
 }
