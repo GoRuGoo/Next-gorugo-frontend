@@ -4,6 +4,13 @@
 @import url('https://fonts.googleapis.com/earlyaccess/nicomoji.css');
 
 html{
-    background-color: black;
     scroll-behavior: smooth;
+    background-color: white;
+    margin: 0;
+    padding:0;
+}
+
+body{
+    margin:0;
+    padding:0;
 }

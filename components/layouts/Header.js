@@ -19,7 +19,6 @@ export default function Header() {
           aria-controls="navbar-default"
           aria-expanded="false"
         >
-          <span className="sr-only">Open main menu</span>
           <svg
             className="w-6 h-6"
             aria-hidden="true"
