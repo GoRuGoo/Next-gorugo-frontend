@@ -6,7 +6,7 @@ export default function Header() {
     console.log(openMenu);
   };
   return (
-    <nav className="bg-white md:py-10 py-3.5 flex  item-center m-auto">
+    <nav className="bg-white md:py-10 md:pb-0 py-3.5 flex  item-center m-auto">
       <div className="container flex flex-wrap items-center justify-between mx-auto">
         <a href="/" className="font-bold  text-5xl px-5">
           Yuta.
