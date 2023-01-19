@@ -12,10 +12,14 @@ export default function Home() {
         <title>GoRuGoo&apos;s Portfolio</title>
         <meta name="description" content="GoRuGoo's Portfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link
+          href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho"
+          rel="stylesheet"
+        ></link>
       </Head>
       <Header />
       <Welcome height={height} width={width} />
-      <Biography />
+      <Biography height={height} width={width} />
     </>
   );
 }
