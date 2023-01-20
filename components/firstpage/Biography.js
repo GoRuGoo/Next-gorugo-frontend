@@ -1,6 +1,8 @@
-import Image from "next/image";
-import { LazyResult } from "postcss";
+import { MIDDLEWARE_REACT_LOADABLE_MANIFEST } from "next/dist/shared/lib/constants";
+import Awardjson from "../../public/JSON/awards.json";
+
 export default function Biography(props) {
+  const listaward = Awardjson.Awards.map((name) => <li>{name["name"]}</li>);
   return (
     // <div className="inline w-fit">
     <div>
@@ -43,6 +45,7 @@ export default function Biography(props) {
             受賞歴
           </span>
         </h3>
+        <ul>{listaward}</ul>
       </div>
     </div>
   );
