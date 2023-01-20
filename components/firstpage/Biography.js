@@ -1,9 +1,10 @@
 import Image from "next/image";
+import { LazyResult } from "postcss";
 export default function Biography(props) {
   return (
     // <div className="inline w-fit">
     <div>
-      <div className="wx-6/12 mx-auto text-center mt-20 mb-4">
+      <div className="wx-6/12 mx-auto text-center my-20">
         <h1
           className="font-bold  text-5xl  border-black border-l-4
       border-r-4 px-3 mx-auto  wx-6/12 inline-block"
@@ -11,9 +12,9 @@ export default function Biography(props) {
           BIOGRAPHY
         </h1>
       </div>
-      <div className="text-center md:w-6/12 w-10/12 mx-auto">
+      {/* <div className="text-center md:w-6/12 w-10/12 mx-auto">
         <Image src={"/goru.webp"} height={props.height} width={props.width} />
-      </div>
+      </div> */}
       <h1 className="text-center font-serif md:text-8xl text-5xl tracking-widest mt-20">
         伊 藤 優 汰
       </h1>
@@ -30,11 +31,18 @@ export default function Biography(props) {
           に参加。それをきっかけに科学技術に興味を持つ。 豊田工業高等専門学校
           情報工学科所属。プログラミングとVTuberの
           <a href="https://www.youtube.com/@HoshimachiSuisei">星街すいせい</a>
-          を愛しています。
+          を溺愛する。
           現在はプログラミングを始めとした技術は、”学ぶものではなく楽しむもの”という考えから
           <span>「Have Fun! With Technology!」</span>
           というモットーを掲げ、日々開発することを楽しむ。
         </p>
+      </div>
+      <div className="md:w-8/12 w-10/12 mx-auto">
+        <h3 className="text-center font-namemyotyo ">
+          <span className="border-gray-300 border-b pb-1 px-40 md:text-sg">
+            受賞歴
+          </span>
+        </h3>
       </div>
     </div>
   );
