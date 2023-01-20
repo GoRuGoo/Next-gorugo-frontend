@@ -23,7 +23,12 @@ export default function Welcome(props) {
     //   </div>
     // </>
     <div className="inline item-center">
-      <Image src={"/cycle.webp"} height={props.height} width={props.width} />
+      <Image
+        src={"/cycle.webp"}
+        height={props.height}
+        width={props.width}
+        alt="cycle"
+      />
     </div>
   );
 }
