@@ -5,12 +5,7 @@ export default function Biography(props) {
   function return_bio(parentjson) {
     return parentjson.map((name) => <li className="py-1">{name["name"]}</li>);
   }
-  const listaward = Biodata.Awards.map((name) => (
-    <li className="py-1">{name["name"]}</li>
-  ));
-  const listParticipationExhibit = Biodata.ParticipationExhibit.map((name) => (
-    <li className="py-1">{name["name"]}</li>
-  ));
+
   return (
     // <div className="inline w-fit">
     <div name="Biography">
