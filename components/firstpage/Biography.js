@@ -1,11 +1,16 @@
 import { MIDDLEWARE_REACT_LOADABLE_MANIFEST } from "next/dist/shared/lib/constants";
-import Awardjson from "../../public/JSON/awards.json";
+import Biodata from "../../public/JSON/biodata.json";
 
 export default function Biography(props) {
-  const listaward = Awardjson.Awards.map((name) => <li>{name["name"]}</li>);
+  const listaward = Biodata.Awards.map((name) => (
+    <li className="py-1">{name["name"]}</li>
+  ));
+  const listParticipationExhibit = Biodata.ParticipationExhibit.map((name) => (
+    <li>{name["name"]}</li>
+  ));
   return (
     // <div className="inline w-fit">
-    <div>
+    <div name="Biography">
       <div className="wx-6/12 mx-auto text-center my-20">
         <h1
           className="font-bold  text-5xl  border-black border-l-4
@@ -39,13 +44,22 @@ export default function Biography(props) {
           というモットーを掲げ、日々開発することを楽しむ。
         </p>
       </div>
-      <div className="md:w-8/12 w-10/12 mx-auto">
-        <h3 className="text-center font-namemyotyo ">
-          <span className="border-gray-300 border-b pb-1 px-40 md:text-sg">
+      <div
+        className="md:w-8/12 w-10/12 mx-auto text-justify
+           font-namemyotyo md:tracking-widest tracking-wider text-base leading-8"
+      >
+        <h3 className="text-center font-namemyotyo pb-5 ">
+          <span className="border-gray-300 border-b pb-1 w-6/12 md:px-40 px-24 px-md:text-sg">
             受賞歴
           </span>
         </h3>
-        <ul>{listaward}</ul>
+        <ul className="text-center pb-10">{listaward}</ul>
+        <h3 className="text-center font-namemyotyo  pb-5">
+          <span className="border-gray-300 border-b pb-1 md:px-40 px-24 md:text-sg">
+            出展・出場歴
+          </span>
+        </h3>
+        <ul className="text-center">{listParticipationExhibit}</ul>
       </div>
     </div>
   );

@@ -1,7 +1,9 @@
 {
     "Awards":[
         {"name":"第33回全国高等専門学校プログラミングコンテスト 優秀賞"},
-        {"name":"NAPROCK第14回国際プログラミングコンテスト 2位"},
+        {"name":"NAPROCK第14回国際プログラミングコンテスト 2位"}
+    ],
+    "ParticipationExhibit":[
         {"name":"TJ-SIF 2022 出展"}
     ]
 }
