@@ -36,7 +36,7 @@ export default function Biography(props) {
           2005年生まれ。現17歳。名古屋市在住。小五~中三に
           <span>RoboCupJuniorSoccer</span>
           に参加。それをきっかけに科学技術に興味を持つ。 豊田工業高等専門学校
-          情報工学科所属。プログラミングとVTuberの
+          情報工学科所属。寮の先輩にゴルゴと名付けられる。プログラミングとVTuberの
           <a href="https://www.youtube.com/@HoshimachiSuisei">星街すいせい</a>
           を溺愛する。
           現在はプログラミングを始めとした技術は、”学ぶものではなく楽しむもの”という考えから
