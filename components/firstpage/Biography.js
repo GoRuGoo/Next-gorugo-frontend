@@ -17,9 +17,6 @@ export default function Biography(props) {
           BIOGRAPHY
         </h1>
       </div>
-      {/* <div className="text-center md:w-6/12 w-10/12 mx-auto">
-        <Image src={"/goru.webp"} height={props.height} width={props.width} />
-      </div> */}
       <h1 className="text-center font-serif md:text-8xl text-5xl tracking-widest mt-20">
         伊 藤 優 汰
       </h1>
@@ -35,7 +32,7 @@ export default function Biography(props) {
           RoboCupJuniorSoccerに参加。それをきっかけに科学技術に興味を持つ。豊田工業高等専門学校
           情報工学科所属。寮の先輩にゴルゴと名付けられる。プログラミングとVTuberの
           <a href="https://www.youtube.com/@HoshimachiSuisei">星街すいせい</a>
-          を溺愛する現在はプログラミングを始めとした技術は、”学ぶものではなく楽しむもの”という考えから
+          を溺愛する。現在はプログラミングを始めとした技術は、”学ぶものではなく楽しむもの”という考えから
           「Have Fun! With
           Technology!」というモットーを掲げ、日々開発することを楽しむ。
         </p>
