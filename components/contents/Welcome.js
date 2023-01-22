@@ -24,7 +24,7 @@ export default function Welcome(props) {
     // </>
     <div className="inline item-center">
       <Image
-        src={"/cycle.webp"}
+        src={"/cycle.png"}
         height={props.height}
         width={props.width}
         alt="cycle"
