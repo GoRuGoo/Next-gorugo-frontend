@@ -6,6 +6,11 @@ module.exports = {
     extend: {
       fontFamily: {
         kawaii: ["Nico Moji"],
+        namemyotyo: ["Noto Serif JP", "serif"],
+        sawarabi: ["Sawarabi Mincho"],
+      },
+      fontWeight: {
+        "extra-light": 100,
       },
     },
   },
