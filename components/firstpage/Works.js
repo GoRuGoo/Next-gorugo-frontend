@@ -3,15 +3,17 @@ import Worksdata from "../../public/JSON/worksdata.json";
 export default function Works() {
   function generate_works(parentjson) {
     return parentjson.map((element) => (
-      <div class="flex sjustify-center mx-auto">
-        <div class="rounded-lg shadow-lg bg-whi min-w-full min-h-full max-w-xs  max-h-85">
+      <div class="flex justify-center mx-auto">
+        <div class="rounded-lg shadow-lg bg-white  max-w-xs h-hull">
           {/* <Image src={element["img_path"]} layout="fill" /> */}
-          <Image
-            src={element["img_path"]}
-            width={500}
-            height={500}
-            className="object-cover"
-          />
+          <div className="h-2/4">
+            <Image
+              src={element["img_path"]}
+              width={500}
+              height={500}
+              className="inline-block object-contain py-auto"
+            />
+          </div>
           <div class="p-6 relative">
             <h5 class="text-black text-xl font-medium mb-2">
               {element["name"]}
@@ -38,7 +40,7 @@ export default function Works() {
           WORKS
         </h1>
       </div>
-      <div className="w-10/12 grid grid-cols-1 mx-auto gap-10  md:grid-cols-3">
+      <div className="w-10/12 grid grid-cols-1 mx-auto gap-10  md:grid-cols-2 lg:grid-cols-3">
         {generate_works(Worksdata.Works)}
       </div>
     </div>
