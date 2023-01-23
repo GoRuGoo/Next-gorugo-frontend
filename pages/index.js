@@ -2,6 +2,7 @@ import Head from "next/head";
 import Welcome from "../components/contents/Welcome";
 import Header from "../components/layouts/Header";
 import Biography from "../components/firstpage/Biography";
+import Works from "../components/firstpage/Works";
 import { getWindowSize } from "../calfunctions/GetWindowSize";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <Header />
       <Welcome height={height} width={width} />
       <Biography height={height} width={width} />
+      <Works />
     </>
   );
 }
