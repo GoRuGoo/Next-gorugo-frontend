@@ -9,8 +9,8 @@ export default function Works() {
           WORKS
         </h1>
       </div>
-      <div className="grid grid-col-2">
-        <div class="flex justify-center">
+      <div className="w-10/12 grid grid-cols-1 mx-auto  md:grid-cols-2">
+        <div class="flex sjustify-center mx-auto">
           <div class="rounded-lg shadow-lg bg-white max-w-xs max-h-xs max-h-80">
             <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
               <img
