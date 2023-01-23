@@ -40,6 +40,21 @@ export default function Works() {
             </div>
           </div>
         </div>
+        <div class="flex justify-center">
+          <div class="rounded-lg shadow-lg bg-white max-w-xs max-h-xs max-h-80">
+            <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
+              <img
+                class="rounded-t-lg"
+                src="https://mdbootstrap.com/img/new/standard/nature/182.jpg"
+                alt=""
+              />
+            </a>
+            <div class="p-6">
+              <h5 class="text-black text-xl font-medium mb-2">Card title</h5>
+              <p class="text-gray-700 text-base mb-4"></p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
