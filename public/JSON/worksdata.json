@@ -1,0 +1,7 @@
+{
+    "Works":[
+        {"name":"Next_gorugo","exp_text":"Next.jsで作成したポートフォリオ","img_path":"/works_image/next_gorugo_image.png"},
+        {"name":"リアルタイム背景透過アプリ","exp_text":"学園祭の展示用に作成したシステム","img_path":"/works_image/realtime.png"},
+        {"name":"i-Make!","exp_text":"高専プロコン作品メイク援助システム","img_path":"/works_image/imakelogo.png"}
+    ]
+}

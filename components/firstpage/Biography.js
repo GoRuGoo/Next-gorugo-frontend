@@ -1,4 +1,3 @@
-import { MIDDLEWARE_REACT_LOADABLE_MANIFEST } from "next/dist/shared/lib/constants";
 import Biodata from "../../public/JSON/biodata.json";
 
 export default function Biography(props) {
