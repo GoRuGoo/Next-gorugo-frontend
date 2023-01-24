@@ -64,6 +64,7 @@ export default function Contact(props) {
               src={"/wantedly_black.svg"}
               width={set_wantedly_size()}
               height={set_wantedly_size()}
+              alt="wantedly"
             />
           </a>
         </div>

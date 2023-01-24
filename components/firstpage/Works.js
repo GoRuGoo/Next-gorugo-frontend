@@ -18,6 +18,7 @@ export default function Works() {
                 width={500}
                 height={500}
                 className="inline-block object-contain py-auto"
+                alt={element["name"]}
               />
             </div>
             <div className="p-6 relative">
