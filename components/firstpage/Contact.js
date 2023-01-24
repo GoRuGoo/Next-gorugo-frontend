@@ -1,6 +1,21 @@
 import Image from "next/image";
 import Link from "next/link";
 export default function Contact(props) {
+  let default_size,
+    wantedly_size = 0;
+  function set_default_size() {
+    {
+      props.width >= 500 ? (default_size = 80) : (default_size = 40);
+    }
+    return default_size;
+  }
+
+  function set_wantedly_size() {
+    {
+      props.width >= 500 ? (wantedly_size = 130) : (wantedly_size = 80);
+    }
+    return wantedly_size;
+  }
   return (
     <div>
       <div className="wx-6/12 mx-auto text-center my-20">
@@ -11,8 +26,8 @@ export default function Contact(props) {
           <a href="https://twitter.com/gorurobo_tech" className="mx-5 my-auto">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="80"
-              height="80"
+              width={set_default_size()}
+              height={set_default_size()}
               fill="currentColor"
               className="bi bi-twitter"
               viewBox="0 0 16 16"
@@ -23,8 +38,8 @@ export default function Contact(props) {
           <a href="https://github.com/GoRuGoo" className="mx-5 my-auto">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="80"
-              height="80"
+              width={set_default_size()}
+              height={set_default_size()}
               fill="currentColor"
               className="bi bi-github "
               viewBox="0 0 16 16"
@@ -35,8 +50,8 @@ export default function Contact(props) {
           <a href="mailto:goru.technology@gmail.com" className="mx-5 my-auto ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="80"
-              height="80"
+              width={set_default_size()}
+              height={set_default_size()}
               fill="currentColor"
               className="bi bi-envelope "
               viewBox="0 0 16 16"
@@ -44,15 +59,13 @@ export default function Contact(props) {
               <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
             </svg>
           </a>
-          {props.width >= 500 ? (
-            <a href="https://www.wantedly.com/id/itoyuta" className="mt-1.5">
-              <Image src={"/wantedly_black.svg"} width={130} height={130} />
-            </a>
-          ) : (
-            <a href="https://www.wantedly.com/id/itoyuta">
-              <Image src={"/wantedly_black.svg"} width={90} height={90} />
-            </a>
-          )}
+          <a href="https://www.wantedly.com/id/itoyuta" className="mt-1.5">
+            <Image
+              src={"/wantedly_black.svg"}
+              width={set_wantedly_size()}
+              height={set_wantedly_size()}
+            />
+          </a>
         </div>
       </div>
     </div>
