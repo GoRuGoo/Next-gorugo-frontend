@@ -9,8 +9,8 @@ export default function Works() {
   }
   function generate_works(parentjson) {
     return parentjson.map((element) => (
-      <div class="flex justify-center">
-        <div class="rounded-lg shadow-lg bg-white  max-w-xl h-full hover:shadow-2xl">
+      <div className="flex justify-center">
+        <div className="rounded-lg shadow-lg bg-white  max-w-xl h-full hover:shadow-2xl">
           <a href={element["link"]}>
             <div className="h-2/4 m-h-2/4 rounded-lg">
               <Image
@@ -20,11 +20,13 @@ export default function Works() {
                 className="inline-block object-contain py-auto"
               />
             </div>
-            <div class="p-6 relative">
-              <h5 class="text-black text-xl font-medium mb-2">
+            <div className="p-6 relative">
+              <h5 className="text-black text-xl font-medium mb-2">
                 {element["name"]}
               </h5>
-              <p class="text-gray-700 text-base mb-4">{element["exp_text"]}</p>
+              <p className="text-gray-700 text-base mb-4">
+                {element["exp_text"]}
+              </p>
             </div>
           </a>
         </div>
