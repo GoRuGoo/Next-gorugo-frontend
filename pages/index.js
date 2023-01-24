@@ -18,10 +18,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <Header />
-      <Welcome height={height} width={width} />
-      <Biography height={height} width={width} />
+      <Welcome />
+      <Biography />
       <Works />
-      <Contact height={height} width={width} />
+      <Contact />
       <Footer />
     </>
   );
