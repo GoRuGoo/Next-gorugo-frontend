@@ -4,6 +4,8 @@ import Header from "../components/layouts/Header";
 import Biography from "../components/firstpage/Biography";
 import Works from "../components/firstpage/Works";
 import Contact from "../components/firstpage/Contact";
+import Footer from "../components/layouts/Footer";
+
 import { getWindowSize } from "../calfunctions/GetWindowSize";
 
 export default function Home() {
@@ -20,6 +22,7 @@ export default function Home() {
       <Biography height={height} width={width} />
       <Works />
       <Contact height={height} width={width} />
+      <Footer />
     </>
   );
 }
