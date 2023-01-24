@@ -46,12 +46,6 @@ export default function Header() {
                 className="border-b-2 p-2 m-6
               "
               >
-                <button>Skills</button>
-              </li>
-              <li
-                className="border-b-2 p-2 m-6
-              "
-              >
                 <button>Works</button>
               </li>
               <li
@@ -67,9 +61,6 @@ export default function Header() {
           <ul className="flex font-bold">
             <li className="block py-2 pr-10">
               <button>Bio</button>
-            </li>
-            <li className="block py-2 pr-10">
-              <button>Skills</button>
             </li>
             <li className="block py-2 pr-10">
               <button>Works</button>
