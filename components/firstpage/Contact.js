@@ -5,14 +5,14 @@ export default function Contact(props) {
     wantedly_size = 0;
   function set_default_size() {
     {
-      props.width >= 500 ? (default_size = 80) : (default_size = 40);
+      props.width >= 500 ? (default_size = 80) : (default_size = 50);
     }
     return default_size;
   }
 
   function set_wantedly_size() {
     {
-      props.width >= 500 ? (wantedly_size = 130) : (wantedly_size = 80);
+      props.width >= 500 ? (wantedly_size = 130) : (wantedly_size = 90);
     }
     return wantedly_size;
   }
