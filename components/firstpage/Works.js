@@ -40,6 +40,9 @@ export default function Works() {
         >
           WORKS
         </h1>
+        <h2 className="mt-6 text-center md:text-2xl text-2xl  text-gray-400 ">
+          Click Card!!!
+        </h2>
       </div>
       <div className="w-10/12 grid grid-cols-1 mx-auto gap-10  md:grid-cols-2 lg:grid-cols-3">
         {generate_works(Worksdata.Works)}
