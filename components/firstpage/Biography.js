@@ -1,9 +1,10 @@
-import { MIDDLEWARE_REACT_LOADABLE_MANIFEST } from "next/dist/shared/lib/constants";
 import Biodata from "../../public/JSON/biodata.json";
 
 export default function Biography(props) {
-  function return_bio(parentjson) {
-    return parentjson.map((name) => <li className="py-1">{name["name"]}</li>);
+  function generate_bio(parentjson) {
+    return parentjson.map((element) => (
+      <li className="py-1">{element["name"]}</li>
+    ));
   }
 
   return (
@@ -47,14 +48,14 @@ export default function Biography(props) {
             受賞歴
           </span>
         </h3>
-        <ul className="text-center pb-10">{return_bio(Biodata.Awards)}</ul>
+        <ul className="text-center pb-10">{generate_bio(Biodata.Awards)}</ul>
         <h3 className="text-center font-namemyotyo  pb-5">
           <span className="border-gray-300 border-b pb-1 md:px-40 px-24 md:text-sg">
             出展・出場歴
           </span>
         </h3>
         <ul className="text-center">
-          {return_bio(Biodata.ParticipationExhibit)}
+          {generate_bio(Biodata.ParticipationExhibit)}
         </ul>
       </div>
     </div>
