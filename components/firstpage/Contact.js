@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+
 export default function Contact(props) {
   let default_size,
     wantedly_size = 0;
