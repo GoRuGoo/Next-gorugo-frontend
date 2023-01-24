@@ -1,11 +1,13 @@
 import Image from "next/image";
 export default function Welcome(props) {
   return (
-    <div className="inline item-center">
+    <div className="inline-block item-center">
       <Image
         src={"/cycle.png"}
-        height={props.height}
-        width={props.width}
+        // height={props.height}
+        // width={props.width}
+        height={5000}
+        width={5000}
         alt="cycle"
       />
     </div>
