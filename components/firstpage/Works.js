@@ -8,8 +8,8 @@ export default function Works() {
     return next_address;
   }
   function generate_works(parentjson) {
-    return parentjson.map((element) => (
-      <div className="flex justify-center">
+    return parentjson.map((element, num) => (
+      <div className="flex justify-center" key={num}>
         <div className="rounded-lg shadow-lg bg-white  max-w-xl h-full hover:shadow-2xl">
           <a href={element["link"]}>
             <div className="h-2/4 m-h-2/4 rounded-lg">

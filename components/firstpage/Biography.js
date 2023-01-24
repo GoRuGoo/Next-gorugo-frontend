@@ -2,8 +2,10 @@ import Biodata from "../../public/JSON/biodata.json";
 
 export default function Biography(props) {
   function generate_bio(parentjson) {
-    return parentjson.map((element) => (
-      <li className="py-1">{element["name"]}</li>
+    return parentjson.map((element, num) => (
+      <li className="py-1" key={num}>
+        {element["name"]}
+      </li>
     ));
   }
 
