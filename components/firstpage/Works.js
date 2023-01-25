@@ -9,7 +9,7 @@ export default function Works() {
   }
   function generate_works(parentjson) {
     return parentjson.map((element, num) => (
-      <div className="flex justify-center" id="works" key={num}>
+      <div className="flex justify-center relative" id="works" key={num}>
         <div className="rounded-lg shadow-lg bg-white  max-w-xl h-full hover:shadow-2xl">
           <a href={element["link"]}>
             <div className="h-2/4 m-h-2/4 rounded-lg">
@@ -21,7 +21,7 @@ export default function Works() {
                 alt={element["name"]}
               />
             </div>
-            <div className="p-6 relative">
+            <div className="p-6 pt-16 md:pt-10 relative">
               <h5 className="text-black text-xl font-medium mb-2">
                 {element["name"]}
               </h5>
