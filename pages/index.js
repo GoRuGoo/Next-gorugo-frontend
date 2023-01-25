@@ -6,10 +6,10 @@ import Works from "../components/firstpage/Works";
 import Contact from "../components/firstpage/Contact";
 import Footer from "../components/layouts/Footer";
 
-import { getWindowSize } from "../calfunctions/GetWindowSize";
+import { useState } from "react";
 
 export default function Home() {
-  const { height, width } = getWindowSize();
+  const [fromChildrenValue, setChildrenVarFunc] = useState(false);
   return (
     <>
       <Head>
@@ -42,12 +42,17 @@ export default function Home() {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff"></meta>
       </Head>
-      <Header />
-      <Welcome />
-      <Biography />
-      <Works />
-      <Contact />
-      <Footer />
+      <Header setChildrenVarFunc={setChildrenVarFunc} />
+
+      {fromChildrenValue ? undefined : (
+        <>
+          <Welcome />
+          <Biography />
+          <Works />
+          <Contact />
+          <Footer />
+        </>
+      )}
     </>
   );
 }
