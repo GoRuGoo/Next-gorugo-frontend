@@ -11,7 +11,7 @@ export default function Biography(props) {
 
   return (
     // <div className="inline w-fit">
-    <div name="Biography">
+    <div id="bio">
       <div className="wx-6/12 mx-auto text-center my-20">
         <h1
           className="font-bold  text-5xl  border-black border-l-4

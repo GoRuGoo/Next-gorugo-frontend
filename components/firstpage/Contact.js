@@ -17,7 +17,7 @@ export default function Contact(props) {
     return wantedly_size;
   }
   return (
-    <div className="wx-6/12 mx-auto text-center my-20 mb-0">
+    <div className="wx-6/12 mx-auto text-center my-20 mb-0" id="contact">
       <h1 className="font-bold text-5xl border-black border-l-4 border-r-4 px-3 mx-auto wx-6/12 inline-block">
         CONTACT
       </h1>

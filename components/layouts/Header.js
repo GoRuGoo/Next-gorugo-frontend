@@ -40,19 +40,25 @@ export default function Header() {
                 className="border-b-2 p-2 m-6
               "
               >
-                <button>Bio</button>
+                <button>
+                  <a href="#bio">Bio</a>
+                </button>
               </li>
               <li
                 className="border-b-2 p-2 m-6
               "
               >
-                <button>Works</button>
+                <button>
+                  <a href="#works">Works</a>
+                </button>
               </li>
               <li
                 className="border-b-2 p-2 m-6
               "
               >
-                <button>Contact</button>
+                <button>
+                  <a href="#contact">Contact</a>
+                </button>
               </li>
             </ul>
           </div>
@@ -60,13 +66,19 @@ export default function Header() {
         <div className="hidden w-full md:block md:w-auto ">
           <ul className="flex font-bold">
             <li className="block py-2 pr-10">
-              <button>Bio</button>
+              <button>
+                <a href="#bio">Bio</a>
+              </button>
             </li>
             <li className="block py-2 pr-10">
-              <button>Works</button>
+              <button>
+                <a href="#works">Works</a>
+              </button>
             </li>
             <li className="block py-2 pr-10">
-              <button>Contact</button>
+              <button>
+                <a href="#contact">Contact</a>
+              </button>
             </li>
           </ul>
         </div>
