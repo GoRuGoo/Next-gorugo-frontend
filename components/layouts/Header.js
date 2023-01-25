@@ -3,10 +3,10 @@ export default function Header(props) {
   const [openMenu, setOpenMenu] = useState(false);
   const menuFunction = () => {
     setOpenMenu(!openMenu);
-    notUseFunc(!toParentVal);
+    childSetVar(!toParentVar);
   };
-  const [toParentVal, notUseFunc] = useState(false);
-  props.setChildrenValFunc(toParentVal);
+  const [toParentVar, childSetVar] = useState(false);
+  props.setChildrenVarFunc(toParentVar);
   return (
     <nav className="bg-white md:py-10 md:pb-0 py-3.5 flex  item-center m-auto">
       <div className="container flex flex-wrap items-center justify-between mx-auto">

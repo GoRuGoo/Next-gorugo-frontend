@@ -9,7 +9,7 @@ import Footer from "../components/layouts/Footer";
 import { useState } from "react";
 
 export default function Home() {
-  const [fromChildrenValue, setChildrenValFunc] = useState(false);
+  const [fromChildrenValue, setChildrenVarFunc] = useState(false);
   return (
     <>
       <Head>
@@ -42,7 +42,7 @@ export default function Home() {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff"></meta>
       </Head>
-      <Header setChildrenValFunc={setChildrenValFunc} />
+      <Header setChildrenVarFunc={setChildrenVarFunc} />
 
       {fromChildrenValue ? undefined : (
         <>
