@@ -6,8 +6,6 @@ import Works from "../components/firstpage/Works";
 import Contact from "../components/firstpage/Contact";
 import Footer from "../components/layouts/Footer";
 
-import { getWindowSize } from "../calfunctions/GetWindowSize";
-
 import { useState } from "react";
 
 export default function Home() {
