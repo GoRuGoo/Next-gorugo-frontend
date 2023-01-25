@@ -44,7 +44,9 @@ export default function Header(props) {
               "
                 >
                   <button>
-                    <a href="#bio">Bio</a>
+                    <a href="/#bio" onClick={menuFunction}>
+                      Bio
+                    </a>
                   </button>
                 </li>
                 <li
@@ -52,7 +54,9 @@ export default function Header(props) {
               "
                 >
                   <button>
-                    <a href="#works">Works</a>
+                    <a href="#works" onClick={menuFunction}>
+                      Works
+                    </a>
                   </button>
                 </li>
                 <li
@@ -60,7 +64,9 @@ export default function Header(props) {
               "
                 >
                   <button>
-                    <a href="#contact">Contact</a>
+                    <a href="#contact" onClick={menuFunction}>
+                      Contact
+                    </a>
                   </button>
                 </li>
               </ul>
