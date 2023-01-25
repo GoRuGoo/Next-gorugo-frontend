@@ -8,8 +8,10 @@ import Footer from "../components/layouts/Footer";
 
 import { getWindowSize } from "../calfunctions/GetWindowSize";
 
+import { useState } from "react";
+
 export default function Home() {
-  const { height, width } = getWindowSize();
+  const [fromChildrenValue, setChildrenValFunc] = useState(false);
   return (
     <>
       <Head>
@@ -42,12 +44,17 @@ export default function Home() {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff"></meta>
       </Head>
-      <Header />
-      <Welcome />
-      <Biography />
-      <Works />
-      <Contact />
-      <Footer />
+      <Header setChildrenValFunc={setChildrenValFunc} />
+
+      {fromChildrenValue ? undefined : (
+        <>
+          <Welcome />
+          <Biography />
+          <Works />
+          <Contact />
+          <Footer />
+        </>
+      )}
     </>
   );
 }

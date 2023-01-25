@@ -1,9 +1,12 @@
 import React, { useState } from "react";
-export default function Header() {
+export default function Header(props) {
   const [openMenu, setOpenMenu] = useState(false);
   const menuFunction = () => {
     setOpenMenu(!openMenu);
+    notUseFunc(!toParentVal);
   };
+  const [toParentVal, notUseFunc] = useState(false);
+  props.setChildrenValFunc(toParentVal);
   return (
     <nav className="bg-white md:py-10 md:pb-0 py-3.5 flex  item-center m-auto">
       <div className="container flex flex-wrap items-center justify-between mx-auto">
@@ -33,33 +36,35 @@ export default function Header() {
           </svg>
         </button>
         {openMenu ? (
-          <div className="flex-row  md:hidden h-screen container items-center relative">
-            <ul className="text-center font-bold translate-y-2/4">
-              <li
-                className="border-b-2 p-2 m-6
+          <div className="flex-row  md:hidden h-screen container items-center relative ">
+            <div>
+              <ul className="text-center font-bold translate-y-2/4">
+                <li
+                  className="border-b-2 p-2 m-6
               "
-              >
-                <button>
-                  <a href="#bio">Bio</a>
-                </button>
-              </li>
-              <li
-                className="border-b-2 p-2 m-6
+                >
+                  <button>
+                    <a href="#bio">Bio</a>
+                  </button>
+                </li>
+                <li
+                  className="border-b-2 p-2 m-6
               "
-              >
-                <button>
-                  <a href="#works">Works</a>
-                </button>
-              </li>
-              <li
-                className="border-b-2 p-2 m-6
+                >
+                  <button>
+                    <a href="#works">Works</a>
+                  </button>
+                </li>
+                <li
+                  className="border-b-2 p-2 m-6
               "
-              >
-                <button>
-                  <a href="#contact">Contact</a>
-                </button>
-              </li>
-            </ul>
+                >
+                  <button>
+                    <a href="#contact">Contact</a>
+                  </button>
+                </li>
+              </ul>
+            </div>
           </div>
         ) : undefined}
         <div className="hidden w-full md:block md:w-auto ">
