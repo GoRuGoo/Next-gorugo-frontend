@@ -3,7 +3,6 @@ export default function Header() {
   const [openMenu, setOpenMenu] = useState(false);
   const menuFunction = () => {
     setOpenMenu(!openMenu);
-    console.log(openMenu);
   };
   return (
     <nav className="bg-white md:py-10 md:pb-0 py-3.5 flex  item-center m-auto">
