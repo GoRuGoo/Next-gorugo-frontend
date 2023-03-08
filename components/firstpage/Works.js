@@ -1,27 +1,20 @@
-import next from "next";
-import Image from "next/image";
 import Link from "next/link";
+import Image from "next/image";
 import Worksdata from "../../public/JSON/worksdata.json";
 export default function Works() {
-  function set_address(address) {
-    let next_address = "location.href" + address;
-    return next_address;
-  }
   function generate_works(parentjson) {
     return parentjson.map((element, num) => (
       <div className="flex justify-center relative" id="works" key={num}>
-        <div className="rounded-lg shadow-lg bg-white  max-w-xl h-full hover:shadow-2xl">
-          <a href={element["link"]}>
-            <div className="h-2/4 m-h-2/4 rounded-lg">
-              <Image
-                src={element["img_path"]}
-                width={500}
-                height={500}
-                className="inline-block object-contain py-auto"
-                alt={element["name"]}
-              />
-            </div>
-            <div className="p-6 pt-16 md:pt-10 relative">
+        <Link href={element["link"]}>
+          <div className="rounded-lg shadow-lg bg-white  max-w-xl h-full hover:shadow-2xl ">
+            <Image
+              src={element["img_path"]}
+              width={500}
+              height={500}
+              className="object-contain h-3/5 overflow-hidden"
+              alt={element["name"]}
+            />
+            <div className="p-6 relative">
               <h5 className="text-black text-xl font-medium mb-2">
                 {element["name"]}
               </h5>
@@ -29,8 +22,8 @@ export default function Works() {
                 {element["exp_text"]}
               </p>
             </div>
-          </a>
-        </div>
+          </div>
+        </Link>
       </div>
     ));
   }
