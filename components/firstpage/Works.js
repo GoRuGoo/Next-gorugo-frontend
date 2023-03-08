@@ -6,7 +6,7 @@ export default function Works() {
     return parentjson.map((element, num) => (
       <div className="flex justify-center relative" id="works" key={num}>
         <Link href={element["link"]}>
-          <div className="rounded-lg shadow-lg bg-white  max-w-xl h-full hover:shadow-2xl ">
+          <div className="rounded-lg shadow-xl bg-white  max-w-xl h-full hover:shadow-2xl ">
             <Image
               src={element["img_path"]}
               width={500}
