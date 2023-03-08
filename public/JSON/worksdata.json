@@ -2,6 +2,7 @@
     "Works":[
         {"name":"Next_gorugo","exp_text":"Next.jsで作成したポートフォリオ","img_path":"/works_image/next_gorugo_image.png","link":"https://github.com/GoRuGoo/Next_gorugo"},
         {"name":"リアルタイム背景透過API","exp_text":"学園祭の展示用に作成したシステム","img_path":"/works_image/realtime.png","link":"https://github.com/GoRuGoo/class_exhibition_color_technology"},
-        {"name":"i-Make!","exp_text":"高専プロコン作品メイク援助システム","img_path":"/works_image/imakelogo.png","link":"https://github.com/kathmandu777/i-make"}
+        {"name":"i-Make!","exp_text":"高専プロコン作品メイク援助システム","img_path":"/works_image/imakelogo.png","link":"https://github.com/kathmandu777/i-make"},
+        {"name":"Fちゃんねる","exp_text":"鳥羽商船ハッカソン作品","img_path":"/works_image/fchannel.png","link":"https://www.wantedly.com/id/itoyuta/items/f2ff76bf-0ece-48ab-a5db-fd1ea18efa41"}
     ]
 }
