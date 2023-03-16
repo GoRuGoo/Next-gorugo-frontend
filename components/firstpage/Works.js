@@ -4,27 +4,6 @@ import Worksdata from "../../public/JSON/worksdata.json";
 export default function Works() {
   function generate_works(parentjson) {
     return parentjson.map((element, num) => (
-      // <div className="flex justify-center relative" id="works" key={num}>
-      //   <Link href={element["link"]}>
-      //     <div className="rounded-lg shadow-xl bg-white  max-w-xl h-full hover:shadow-2xl ">
-      //       <Image
-      //         src={element["img_path"]}
-      //         width={500}
-      //         height={500}
-      //         className="object-contain h-3/5 overflow-hidden border-4 border-black"
-      //         alt={element["name"]}
-      //       />
-      //       <div className="p-6 relative border-4 border-red-400">
-      //         <h5 className="text-black text-xl font-medium mb-2">
-      //           {element["name"]}
-      //         </h5>
-      //         <p className="text-gray-700 text-base mb-4">
-      //           {element["exp_text"]}
-      //         </p>
-      //       </div>
-      //     </div>
-      //   </Link>
-      // </div>
       <div className="rounded-lg shadow-xl bg-white  hover:shadow-2xl  ">
         <Link href={element["link"]}>
           <div className=" h-56  relative ">
@@ -45,7 +24,7 @@ export default function Works() {
     ));
   }
   return (
-    <div className="mb-20">
+    <div className="mb-20" id="works">
       <div className="wx-6/12 mx-auto text-center my-20">
         <h1
           className="font-bold  text-5xl  border-black border-l-4
