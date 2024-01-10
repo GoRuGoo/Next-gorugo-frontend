@@ -14,7 +14,7 @@
     },
     {
       "name": "i-Make!",
-      "exp_text": "高専プロコン作品メイク援助システム",
+      "exp_text": "第33回高専プロコン作品メイク援助システム",
       "img_path": "/works_image/imakelogo.png",
       "link": "https://youtu.be/wSapbCyDciY?t=17710"
     },
@@ -35,6 +35,12 @@
       "exp_text": "地元の魅力を深掘り出来る旅行サービス",
       "img_path": "/works_image/prtimes-hackathon.png",
       "link": "https://www.wantedly.com/id/itoyuta/items/1c7f2e4d-804d-4555-bb90-65a6f065ebf3"
+    },
+    {
+      "name": "Asamit",
+      "exp_text": "第34回高専プロコン作品朝活支援システム",
+      "img_path": "/works_image/asamit.jpg",
+      "link": "https://www.wantedly.com/id/itoyuta/items/e76f1ff9-2434-447f-91c0-84c1cf9b4a91"
     },
     {
       "name": "Hack U KOSEN 2023 最優秀賞 & Happy Hacking賞",
