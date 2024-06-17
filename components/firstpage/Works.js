@@ -16,7 +16,7 @@ export default function Works() {
           <a
             href="https://www.wantedly.com/id/itoyuta"
             target="_blank"
-            className="text-blue-400"
+            className="text-sky-400"
           >
             Wantedly
           </a>
