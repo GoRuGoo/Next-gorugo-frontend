@@ -2,27 +2,6 @@ import Link from "next/link";
 import Image from "next/image";
 import Worksdata from "../../public/JSON/worksdata.json";
 export default function Works() {
-  function generate_works(parentjson) {
-    return parentjson.map((element, num) => (
-      <div className="rounded-lg shadow-xl bg-white  hover:shadow-2xl  ">
-        <Link href={element["link"]}>
-          <div className=" h-56  relative ">
-            <Image
-              src={element["img_path"]}
-              className="object-contain"
-              layout="fill"
-            />
-          </div>
-          <div className=" relative p-6 ">
-            <h5 className="text-black text-xl font-medium">
-              {element["name"]}
-            </h5>
-            <p className="text-gray-700 text-base">{element["exp_text"]}</p>
-          </div>
-        </Link>
-      </div>
-    ));
-  }
   return (
     <div className="mb-20" id="works">
       <div className="wx-6/12 mx-auto text-center my-20">
@@ -32,12 +11,17 @@ export default function Works() {
         >
           WORKS
         </h1>
-        <h2 className="mt-6 text-center md:text-2xl text-2xl  text-gray-400 ">
-          Click Card!!!
-        </h2>
-      </div>
-      <div className="w-10/12 grid mx-auto gap-10  md:grid-cols-2 lg:grid-cols-3">
-        {generate_works(Worksdata.Works)}
+        <p className="mt-6 text-center md:text-xl text-2xl">
+          開発作品・職歴は
+          <a
+            href="https://www.wantedly.com/id/itoyuta"
+            target="_blank"
+            className="text-blue-400"
+          >
+            Wantedly
+          </a>
+          を参照ください。
+        </p>
       </div>
     </div>
   );
