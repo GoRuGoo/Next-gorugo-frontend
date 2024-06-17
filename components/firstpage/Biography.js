@@ -10,7 +10,6 @@ export default function Biography(props) {
   }
 
   return (
-    // <div className="inline w-fit">
     <div id="bio">
       <div className="wx-6/12 mx-auto text-center my-20">
         <h1
@@ -31,12 +30,12 @@ export default function Biography(props) {
           className=" md:w-5/12  w-9/12 mx-auto text-justify
            font-namemyotyo md:tracking-widest tracking-wider text-base leading-8"
         >
-          2005年7月30日生まれ。現18歳。名古屋市在住。
-          <span>小五~中三</span>に<span> RoboCupJuniorSoccer</span>
+          2005年7月30日生まれ。現18歳。岡崎市在住。
+          小五~中三にRoboCupJuniorSoccer
           に参加。それをきっかけに科学技術に興味を持つ。豊田工業高等専門学校
           情報工学科所属。寮の先輩にゴルゴと名付けられる。
           現在はプログラミングを始めとした技術は、”学ぶものではなく楽しむもの”という考えから
-          <span>「Have Fun! With Technology!」</span>
+          「Have Fun! With Technology!」
           というモットーを掲げ、日々開発することを楽しむ。
         </p>
       </div>
