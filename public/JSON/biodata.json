@@ -13,7 +13,16 @@
       "name": "PR TIMES HACKATHON 2023 Summer 最優秀賞"
     },
     {
-      "name": "Hack U KOSEN 2023 最優秀賞 & Happy Hacking賞"
+      "name": "Hack U KOSEN 2023 最優秀賞"
+    },
+    {
+      "name": "Hack U KOSEN 2023 Happy Hacking賞"
+    },
+    {
+      "name": "名古屋テレビ主催 Electric Sheep チームワーク賞"
+    },
+    {
+      "name": "TwoGate DevCamp 2025 Summer CTO賞"
     }
   ],
   "ParticipationExhibit": [
@@ -22,6 +31,9 @@
     },
     {
       "name": "第34回全国高等専門学校プログラミングコンテスト 敢闘賞"
+    },
+    {
+      "name": "LINE DC BOT AWARDS 2024 出場"
     }
   ]
 }

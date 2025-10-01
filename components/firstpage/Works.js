@@ -11,12 +11,12 @@ export default function Works() {
         >
           WORKS
         </h1>
-        <p className="mt-6 text-center md:text-xl text-2xl">
+        <p className="mt-6 text-center md:text-xl font-namemyotyo tracking-wider text-base">
           開発作品・職歴は
           <a
             href="https://www.wantedly.com/id/itoyuta"
             target="_blank"
-            className="text-sky-400"
+            className="text-sky-400 font-nameyotyo tracking-wider text-base md:w-5/12"
           >
             Wantedly
           </a>
