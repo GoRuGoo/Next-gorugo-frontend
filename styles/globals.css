@@ -1,11 +1,11 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 @import url('https://fonts.googleapis.com/earlyaccess/nicomoji.css'); /*かわいいやつ*/
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap');
 /*引き締まった明朝体*/
 @import url( "https://fonts.googleapis.com/css?family=Sawarabi+Mincho");
 /* さわらび明朝*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 
 html{
