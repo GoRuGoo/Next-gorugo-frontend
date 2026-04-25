@@ -30,10 +30,10 @@ export default function Biography(props) {
           className=" md:w-5/12  w-9/12 mx-auto text-justify
            font-namemyotyo md:tracking-widest tracking-wider text-base leading-8"
         >
-          2005年7月30日生まれ。現18歳。岡崎市在住。
+          2005年7月30日生まれ。現20歳。名古屋市出身｡
           小五~中三にRoboCupJuniorSoccer
           に参加。それをきっかけに科学技術に興味を持つ。豊田工業高等専門学校
-          情報工学科所属。寮の先輩にゴルゴと名付けられる。
+          情報工学科 卒業｡九州工業大学 情報工学部 情報･通信工学科 3年在学中。
           現在はプログラミングを始めとした技術は、”学ぶものではなく楽しむもの”という考えから
           「Have Fun! With Technology!」
           というモットーを掲げ、日々開発することを楽しむ。
